@@ -1,4 +1,3 @@
-JustJo — Today at 14:40
 pipeline {
     agent any
     environment {
