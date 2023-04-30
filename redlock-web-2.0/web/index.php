@@ -62,6 +62,7 @@
 			    while($row = $result->fetch_assoc()) {
 			        echo "<tr><td>" . $row["UsersID"]. "</td><td>" . $row["Nama"]. "</td><td>" . $row["Alamat"]. "</td><td>" . $row["Jabatan"]. "</td></tr>";
 			    }
+				echo "<tr>Jumlah User: " . $result->num_rows . "</tr>";
 			} else {
 			    echo "0 results";
 			}
